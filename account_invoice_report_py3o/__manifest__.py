@@ -18,7 +18,13 @@ This module has been written by Alexis de Lattre from Akretion
 <alexis.delattre@akretion.com>.
     """,
     'author': 'Akretion',
-    'depends': ['report_py3o', 'account', 'base_company_extension'],
+    'depends': [
+        'report_py3o',
+        'account',
+        'base_company_extension',
+        'base_usability',  # to be name_title
+        'account_payment_partner',
+        ],
     'data': ['report.xml'],
     'installable': True,
 }
