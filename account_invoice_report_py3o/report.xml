@@ -2,9 +2,6 @@
 <odoo>
 
 <record id="account.account_invoices" model="ir.actions.report.xml">
-    <field name="name">Invoice</field>
-    <field name="model">account.invoice</field>
-    <field name="report_name">account.report_invoice</field>
     <field name="report_type">py3o</field>
     <field name="py3o_filetype">odt</field>
     <field name="module">account_invoice_report_py3o</field>
