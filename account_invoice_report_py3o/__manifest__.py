@@ -22,7 +22,8 @@ This module has been written by Alexis de Lattre from Akretion
         'report_py3o',
         'account',
         'base_company_extension',
-        'base_usability',  # to be name_title
+        'base_usability',  # to have res_partner.name_title
+        'account_usability',  # to have account_invoice.has_discount
         'account_payment_partner',
         ],
     'data': ['report.xml'],
