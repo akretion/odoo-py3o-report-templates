@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<record id="purchase.action_report_purchase_order" model="ir.actions.report.xml">
+    <field name="report_type">py3o</field>
+    <field name="py3o_filetype">odt</field>
+    <field name="module">purchase_report_py3o</field>
+    <field name="py3o_template_fallback">purchase_order.odt</field>
+</record>
+
+</odoo>
