@@ -8,4 +8,12 @@
     <field name="py3o_template_fallback">account_invoice.odt</field>
 </record>
 
+<record id="account.account_invoice_action_report_duplicate" model="ir.actions.report.xml">
+    <field name="report_type">py3o</field>
+    <field name="py3o_filetype">odt</field>
+    <field name="module">account_invoice_report_py3o</field>
+    <field name="py3o_template_fallback">account_invoice.odt</field>
+</record>
+
+
 </odoo>

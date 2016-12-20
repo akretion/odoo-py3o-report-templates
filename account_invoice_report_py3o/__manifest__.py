@@ -25,6 +25,7 @@ This module has been written by Alexis de Lattre from Akretion
         'base_usability',  # to have res_partner.name_title
         'account_usability',  # to have account_invoice.has_discount
         'account_payment_partner',
+        'l10n_fr',  # for France-specific fields in header
         ],
     'data': ['report.xml'],
     'installable': True,

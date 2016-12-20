@@ -24,6 +24,7 @@ This module has been written by Alexis de Lattre from Akretion
         'sale_commercial_partner',
         'base_company_extension',
         'base_usability',  # to have res_partner.name_title
+        'l10n_fr',  # for France-specific fields in header
         ],
     'data': ['report.xml'],
     'installable': True,
