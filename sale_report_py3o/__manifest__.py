@@ -23,6 +23,7 @@ This module has been written by Alexis de Lattre from Akretion
         'sale_commercial_partner',
         'base_company_extension',
         'base_usability',  # to have res_partner.name_title
+        'sale_usability',  # for layout
         'account_payment_sale',
         ],
     'data': ['report.xml'],
