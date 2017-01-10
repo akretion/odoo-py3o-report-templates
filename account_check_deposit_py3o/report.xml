@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<record id="account_check_deposit.report_account_check_deposit" model="ir.actions.report.xml">
+    <field name="report_type">py3o</field>
+    <field name="py3o_filetype">odt</field>
+    <field name="module">account_check_deposit_py3o</field>
+    <field name="py3o_template_fallback">check_deposit.odt</field>
+</record>
+
+</odoo>
