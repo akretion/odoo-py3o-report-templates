@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<record id="hr_expense.action_report_hr_expense_sheet" model="ir.actions.report.xml">
+    <field name="report_type">py3o</field>
+    <field name="py3o_filetype">odt</field>
+    <field name="module">hr_expense_report_py3o</field>
+    <field name="py3o_template_fallback">expense.odt</field>
+</record>
+
+</odoo>
