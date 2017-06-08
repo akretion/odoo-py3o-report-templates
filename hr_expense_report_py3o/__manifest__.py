@@ -22,8 +22,7 @@ This module has been written by Alexis de Lattre from Akretion
         'report_py3o',
         'base_company_extension',
         'base_usability',  # to have res_partner.name_title
-        'hr_expense',
-        'hr_expense_sequence',
+        'hr_expense_usability',
         ],
     'data': ['report.xml'],
     'installable': True,
