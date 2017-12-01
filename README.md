@@ -21,7 +21,7 @@ Tracking .odt business document evolution :
 Three available options to track changes in your .odt template :
 
 * Use the [Compare Document](https://help.libreoffice.org/Common/Compare_Document) native option in LibreOffice
-* Extract the .xml of your two .odt documents and compare it with classic `git diff` or `gitk`. Be aware that the text on the header and the footer are located in a separate .xml file from the main text.
+* Extract the .xml of your two .odt documents and compare it with classic `git diff` or `gitk` tools. Be aware that the text on the header and the footer are located in a separate .xml file from the main text.
 * Use classic `git diff` or `gitk` tools after converting the .odt binary files to plain text formats :
   1. Install [odt2txt](https://github.com/dstosberg/odt2txt)
       sudo apt-get update
@@ -29,6 +29,7 @@ Three available options to track changes in your .odt template :
   2. Add `*.odt diff=odt` in your git attributes file `~/.config/git/attributes`, if you want to add this attribute on a global level configuration, creating a new `attributes` file if necessary.
 
   If you want to add this attributes only on a projetc level configuration, add it in `<your project dir>/.gitattributes`.
+
   3. In your global git config file `~/.gitconfig` add the reading option :
     ````
     [diff "odt"]
@@ -44,7 +45,6 @@ Authors:
 ========
 - Copyright (C) 2015-TODAY Akretion (http://www.akretion.com).
 - Alexis de Lattre <alexis.delattre@akretion.com>
-
 
 License:
 ========
