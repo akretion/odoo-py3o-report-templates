@@ -1,6 +1,6 @@
 # odoo-py3o-sample-report
 
-This repository group modules that provide *py3o templates* for basic Odoo reports.
+This repository groups modules that provide *py3o templates* for basic Odoo reports.
 
 Dependencies:
 =============
@@ -18,17 +18,17 @@ Templating with LibreOffice :
 
 Tracking .odt business document evolution :
 =============
-Three available options to track changes in your .odt template :
+There are 3 available options to track changes in your .odt template :
 
 * Use the [Compare Document](https://help.libreoffice.org/Common/Compare_Document) native option in LibreOffice
 * Extract the .xml of your two .odt documents and compare it with classic `git diff` or `gitk` tools. Be aware that the text on the header and the footer are located in a separate .xml file from the main text.
-* Use classic `git diff` or `gitk` tools after converting the .odt binary files to plain text formats :
+* Use classic `git diff` or `gitk` tools after converting the .odt binary files to plain text formats:
   1. Install [odt2txt](https://github.com/dstosberg/odt2txt)
       sudo apt-get update
       sudo apt-get install odt2txt
   2. Add `*.odt diff=odt` in your git attributes file `~/.config/git/attributes`, if you want to add this attribute on a global level configuration, creating a new `attributes` file if necessary.
 
-  If you want to add this attributes only on a projetc level configuration, add it in `<your project dir>/.gitattributes`.
+  If you want to add this attributes only on a project level configuration, add it in `<your project dir>/.gitattributes`.
 
   3. In your global git config file `~/.gitconfig` add the reading option :
     ````
