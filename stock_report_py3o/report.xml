@@ -1,20 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
+<!--
+<record id="local_py3o_server" model="py3o.server">
+    <field name="url">http://localhost:8765/form</field>
+</record>
+-->
+
 <!-- Delivery Slip -->
-<record id="stock.action_report_delivery" model="ir.actions.report.xml">
+<record id="stock.action_report_delivery" model="ir.actions.report">
     <field name="report_type">py3o</field>
     <field name="py3o_filetype">odt</field>
     <field name="module">stock_report_py3o</field>
     <field name="py3o_template_fallback">delivery.odt</field>
+    <!--
+    <field name="py3o_server_id" ref="local_py3o_server"/>
+    <field name="py3o_filetype">pdf</field>
+    <field name="print_report_name">'BL-' + object.name.replace('/', '_') + '-' + (object.state == 'done' and object.date_done[:10] or '') + '-' + (object.partner_id and object.partner_id.commercial_partner_id.name.replace(' ', '_') or '') + '.pdf'</field>
+    -->
 </record>
 
 <!-- Picking Operations -->
-<record id="stock.action_report_picking" model="ir.actions.report.xml">
+<record id="stock.action_report_picking" model="ir.actions.report">
     <field name="report_type">py3o</field>
     <field name="py3o_filetype">odt</field>
     <field name="module">stock_report_py3o</field>
     <field name="py3o_template_fallback">picking.odt</field>
+    <!--
+    <field name="py3o_server_id" ref="local_py3o_server"/>
+    <field name="py3o_filetype">pdf</field>
+    -->
 </record>
 
 </odoo>

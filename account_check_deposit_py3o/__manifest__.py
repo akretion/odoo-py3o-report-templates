@@ -24,5 +24,5 @@ This module has been written by Alexis de Lattre from Akretion
         'account_check_deposit',
         ],
     'data': ['report.xml'],
-    'installable': True,
+    'installable': False,
 }

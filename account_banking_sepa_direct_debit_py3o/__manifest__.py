@@ -24,5 +24,5 @@ This module has been written by Alexis de Lattre from Akretion
         'account_banking_sepa_direct_debit',
         ],
     'data': ['report.xml'],
-    'installable': True,
+    'installable': False,
 }

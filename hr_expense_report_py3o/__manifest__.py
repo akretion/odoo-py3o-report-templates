@@ -25,5 +25,5 @@ This module has been written by Alexis de Lattre from Akretion
         'hr_expense_usability',
         ],
     'data': ['report.xml'],
-    'installable': True,
+    'installable': False,
 }

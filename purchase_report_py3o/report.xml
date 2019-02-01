@@ -1,18 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-<record id="purchase.action_report_purchase_order" model="ir.actions.report.xml">
+<!--
+<record id="local_py3o_server" model="py3o.server">
+    <field name="url">http://localhost:8765/form</field>
+</record>
+-->
+
+<record id="purchase.action_report_purchase_order" model="ir.actions.report">
     <field name="report_type">py3o</field>
     <field name="py3o_filetype">odt</field>
     <field name="module">purchase_report_py3o</field>
     <field name="py3o_template_fallback">purchase_order.odt</field>
+    <!--
+    <field name="py3o_server_id" ref="local_py3o_server"/>
+    <field name="py3o_filetype">pdf</field>
+    <field name="print_report_name">object.name + '-' + object.commercial_partner_id.name.replace(' ', '_') + '.pdf'</field>
+    -->
 </record>
 
-<record id="purchase.report_purchase_quotation" model="ir.actions.report.xml">
+<record id="purchase.report_purchase_quotation" model="ir.actions.report">
     <field name="report_type">py3o</field>
     <field name="py3o_filetype">odt</field>
     <field name="module">purchase_report_py3o</field>
     <field name="py3o_template_fallback">rfq.odt</field>
+    <!--
+    <field name="py3o_server_id" ref="local_py3o_server"/>
+    <field name="py3o_filetype">pdf</field>
+    <field name="print_report_name">'RFQ-' + object.name + '-' + object.commercial_partner_id.name.replace(' ', '_') + '.pdf'</field>
+    -->
 </record>
 
 
