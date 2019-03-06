@@ -21,15 +21,19 @@
 </record>
 
 <!-- Picking Operations -->
+<!--
 <record id="stock.action_report_picking" model="ir.actions.report">
     <field name="report_type">py3o</field>
     <field name="py3o_filetype">odt</field>
     <field name="module">stock_report_py3o</field>
     <field name="py3o_template_fallback">picking.odt</field>
+-->
     <!--
     <field name="py3o_server_id" ref="local_py3o_server"/>
     <field name="py3o_filetype">pdf</field>
     -->
+<!--
 </record>
+-->
 
 </odoo>
