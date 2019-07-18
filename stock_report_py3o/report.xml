@@ -16,7 +16,7 @@
     <!--
     <field name="py3o_server_id" ref="local_py3o_server"/>
     <field name="py3o_filetype">pdf</field>
-    <field name="print_report_name">'BL-' + object.name.replace('/', '_') + '-' + (object.state == 'done' and object.date_done[:10] or '') + '-' + (object.partner_id and object.partner_id.commercial_partner_id.name.replace(' ', '_') or '') + '.pdf'</field>
+    <field name="print_report_name">'BL-' + object.name.replace('/', '_') + '-' + (object.state == 'done' and object.date_done.strftime('%Y-%m-%d') or '') + '-' + (object.partner_id and object.partner_id.commercial_partner_id.name.replace(' ', '_') or '') + '.pdf'</field>
     -->
 </record>
 

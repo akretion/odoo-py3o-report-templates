@@ -15,7 +15,7 @@
     <!--
     <field name="py3o_server_id" ref="local_py3o_server"/>
     <field name="py3o_filetype">pdf</field>
-    <field name="print_report_name">object.name + '-' + object.date_order[:10] + '-' + object.commercial_partner_id.name.replace(' ', '_') + '.pdf'</field>
+    <field name="print_report_name">object.name + '-' + object.date_order.strftime('%Y-%m-%d') + '-' + object.commercial_partner_id.name.replace(' ', '_') + '.pdf'</field>
     -->
 </record>
 
