@@ -18,7 +18,7 @@ This module has been written by Alexis de Lattre from Akretion
     """,
     'author': 'Akretion',
     'depends': [
-        'report_py3o',
+        'report_py3o_fusion_server',
         'base_company_extension',
         'base_usability',  # to have res_partner.name_title
         'account_usability',  # to have account_invoice.has_discount

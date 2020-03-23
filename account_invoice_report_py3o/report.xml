@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-<!--
 
 <record id="py3o_pdf_options_pdfa" model="py3o.pdf.options">
     <field name="name">PDF/A (for Factur-X invoices)</field>
@@ -12,7 +11,6 @@
     <field name="url">http://localhost:8765/form</field>
     <field name="pdf_options_id" ref="py3o_pdf_options_pdfa"/>
 </record>
--->
 
 
 <record id="account.account_invoices" model="ir.actions.report">
@@ -20,11 +18,9 @@
     <field name="py3o_filetype">odt</field>
     <field name="module">account_invoice_report_py3o</field>
     <field name="py3o_template_fallback">account_invoice.odt</field>
-    <!--
     <field name="py3o_server_id" ref="local_py3o_server"/>
     <field name="py3o_filetype">pdf</field>
-    Nota: by default: print_report_name="(object._get_report_base_filename())
-    -->
+    <field name="attachment_use" eval="1"/>
 </record>
 
 <record id="account.account_invoices_without_payment" model="ir.actions.report">
@@ -32,9 +28,10 @@
     <field name="py3o_filetype">odt</field>
     <field name="module">account_invoice_report_py3o</field>
     <field name="py3o_template_fallback">account_invoice.odt</field>
-    <!--
     <field name="py3o_server_id" ref="local_py3o_server"/>
     <field name="py3o_filetype">pdf</field>
+    <field name="attachment_use" eval="1"/>
+    <!--
     Nota: by default: print_report_name="(object._get_report_base_filename())
     -->
 </record>
