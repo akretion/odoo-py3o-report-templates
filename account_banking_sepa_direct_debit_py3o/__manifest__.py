@@ -4,7 +4,7 @@
 
 {
     'name': 'SEPA Direct Debit Mandate Py3o Report',
-    'version': '10.0.1.0.0',
+    'version': '12.0.1.0.0',
     'category': 'Banking',
     'license': 'AGPL-3',
     'summary': 'Sample py3o SEPA direct debit mandate report',
