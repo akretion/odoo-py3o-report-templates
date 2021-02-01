@@ -25,5 +25,5 @@ This module has been written by Alexis de Lattre from Akretion
         'account_payment_partner',
         ],
     'data': ['report.xml'],
-    'installable': True,
+    'installable': False,
 }
