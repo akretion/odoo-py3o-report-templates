@@ -1,10 +1,10 @@
-# Copyright 2020 Akretion France (http://www.akretion.com/)
+# Copyright 2020-2021 Akretion France (http://www.akretion.com/)
 # @author: Alexis de Lattre <alexis.delattre@akretion.com>
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
 {
     'name': 'Invoice Overdue Reminder Py3o',
-    'version': '12.0.1.0.0',
+    'version': '14.0.1.0.0',
     'category': 'Accounting',
     'license': 'AGPL-3',
     'summary': 'Sample py3o overdue reminder letter report',
@@ -24,5 +24,5 @@ This module has been written by Alexis de Lattre from Akretion
         'account_invoice_overdue_reminder',
         ],
     'data': ['report.xml'],
-    'installable': False,
+    'installable': True,
 }

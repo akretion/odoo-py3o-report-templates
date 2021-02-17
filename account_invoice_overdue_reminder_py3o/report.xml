@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-<record id="account_invoice_overdue_reminder.overdue_reminder_action_report" model="ir.actions.report">
+<record id="account_invoice_overdue_reminder.overdue_reminder_step_report" model="ir.actions.report">
     <field name="report_type">py3o</field>
     <field name="py3o_filetype">odt</field>
     <field name="module">account_invoice_overdue_reminder_py3o</field>
