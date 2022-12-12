@@ -20,7 +20,7 @@ This module has been written by Alexis de Lattre from Akretion
     'author': 'Akretion',
     'depends': [
         'report_py3o',
-        'base_usability',  # for header
+        'base_company_extension',  # for header
         'account_check_deposit',
         ],
     'data': ['report.xml'],
