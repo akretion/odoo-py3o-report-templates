@@ -4,7 +4,7 @@
 
 {
     'name': 'Invoice Report Py3o',
-    'version': '16.0.1.0.0',
+    'version': '18.0.1.0.0',
     'category': 'Accounting',
     'license': 'AGPL-3',
     'summary': 'Sample py3o invoice report',
@@ -21,9 +21,9 @@ This module has been written by Alexis de Lattre from Akretion
     'depends': [
         'report_py3o',
         'base_company_extension',
-        'base_usability',  # to have res_partner.name_title
+        'base_usability_akretion',  # to have res_partner.name_title
         'account_usability_akretion',  # to have account_invoice.has_discount
-        'account_payment_partner',
+        'account_payment_base_oca',
         ],
     'data': ['report.xml'],
     'installable': True,

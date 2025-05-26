@@ -20,5 +20,5 @@ This module has been written by Alexis de Lattre from Akretion
     "author": "Akretion",
     "depends": ["report_py3o", "base_usability", "account_banking_sepa_direct_debit"],
     "data": ["report.xml"],
-    "installable": True,
+    "installable": False,
 }

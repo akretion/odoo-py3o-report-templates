@@ -4,7 +4,7 @@
 
 {
     'name': 'Purchase Reports Py3o',
-    'version': '16.0.1.0.0',
+    'version': '18.0.1.0.0',
     'category': 'Purchases',
     'license': 'AGPL-3',
     'summary': 'Sample py3o purchase reports',
@@ -22,9 +22,9 @@ This module has been written by Alexis de Lattre from Akretion
         'report_py3o',
         'purchase_commercial_partner',
         'base_company_extension',
-        'base_usability',  # to have res_partner.name_title
-        'purchase_usability',
-        'account_payment_partner',
+        'base_usability_akretion',  # to have res_partner.name_title
+        'purchase_usability_akretion',
+        'account_payment_base_oca',
         ],
     'data': ['report.xml'],
     'installable': True,

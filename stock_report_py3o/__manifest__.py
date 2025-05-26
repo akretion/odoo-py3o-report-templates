@@ -26,5 +26,5 @@ This module has been written by Alexis de Lattre from Akretion
         'base_usability',  # to have res_partner.name_title
         ],
     'data': ['report.xml'],
-    'installable': True,
+    'installable': False,
 }
