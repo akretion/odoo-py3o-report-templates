@@ -1,0 +1,13 @@
+[project]
+name = "odoo-addons-akretion-odoo-py3o-report-templates"
+version = "18.0.20250526.0"
+dependencies = [
+    "odoo-addon-account_invoice_report_py3o==18.0.*",
+    "odoo-addon-purchase_report_py3o==18.0.*",
+    "odoo-addon-sale_report_py3o==18.0.*",
+]
+classifiers=[
+    "Programming Language :: Python",
+    "Framework :: Odoo",
+    "Framework :: Odoo :: 18.0",
+]
