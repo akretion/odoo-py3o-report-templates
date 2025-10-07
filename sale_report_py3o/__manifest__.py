@@ -24,7 +24,7 @@ This module has been written by Alexis de Lattre from Akretion
         'base_company_extension',
         'base_usability_akretion',  # to have res_partner.name_title
         'sale_usability_akretion',  # for layout
-        'account_payment_sale',  # TODO
+        'account_payment_base_oca_sale',
         ],
     'data': ['report.xml'],
     'installable': True,
