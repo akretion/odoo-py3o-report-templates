@@ -4,7 +4,7 @@
 
 {
     'name': 'Check Deposit Py3o',
-    'version': '16.0.1.0.0',
+    'version': '18.0.1.0.0',
     'category': 'Accounting',
     'license': 'AGPL-3',
     'summary': 'Sample py3o check deposit report',
@@ -24,5 +24,5 @@ This module has been written by Alexis de Lattre from Akretion
         'account_check_deposit',
         ],
     'data': ['report.xml'],
-    'installable': False,
+    'installable': True,
 }
