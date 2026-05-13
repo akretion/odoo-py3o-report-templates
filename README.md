@@ -37,10 +37,6 @@ There are 3 available options to track changes in your .odt template :
         binary = true
     ````
 
-Writing py3o Format Functions in LibreOffice input-fields
-=============
-It is possible to write py3o format functions like `py3o://function="lang== ' '"` or `py3o://function="format_multiline_value()"` in LibreOffice *input-fields* instead of using the *hyperlink* method, using this [patch](https://bitbucket.org/faide/py3o.template/pull-requests/32/allow-to-use-libreoffice-input-fields-for/diff).
-
 Authors:
 ========
 - Copyright (C) 2015-TODAY Akretion (http://www.akretion.com).
