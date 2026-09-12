@@ -19,7 +19,7 @@ This module has been written by Alexis de Lattre from Akretion
     """,
     'author': 'Akretion',
     'depends': [
-        'report_py3o',
+        'report_py3o_fusion_server',  # from https://github.com/OCA/reporting-engine/pull/1073
         'base_company_extension',
         'base_usability_akretion',  # to have res_partner.name_title
         'account_usability_akretion',  # to have account_invoice.has_discount
